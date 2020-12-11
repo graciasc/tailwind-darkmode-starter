@@ -11,7 +11,7 @@ let toggle = true;
 const btn = document
   .getElementById("btnToggle")
   .addEventListener("click", (e) => {
-    
+    console.log("clicked")
     if (!toggle) {
       toggle = true;
       // removes dark from html tag
